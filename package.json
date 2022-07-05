@@ -1,0 +1,19 @@
+{
+  "name": "e-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app",
+    "prod":"SET NODE_ENV=production & nodemon app.js"
+  },
+  "author": "Amit joshi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  }
+}
