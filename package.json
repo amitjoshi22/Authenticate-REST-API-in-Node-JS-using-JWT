@@ -5,14 +5,16 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev":"nodemon app",
-    "prod":"SET NODE_ENV=production & nodemon app.js"
+    "dev": "nodemon app",
+    "prod": "SET NODE_ENV=production & nodemon app.js"
   },
   "author": "Amit joshi",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.2",
     "nodemon": "^2.0.18"
   }
